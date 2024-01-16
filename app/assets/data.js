@@ -1,8 +1,7 @@
 export const data = [
   {
     id: 1,
-    imgSrc:
-      'https://github.com/wilantr0/tienda/blob/a2dd269e948762c0e9d029c63052ebe6a034ceb0/public/Banner1.jpg  '
+    imgSrc: 'Banner1.jpg'
   },
   {
     id: 2,

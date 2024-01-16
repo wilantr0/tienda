@@ -56,7 +56,7 @@ export default function Carrousel () {
               >
                 <img
                   className=' w-full rounded-2xl'
-                  src={item.imgSrc}
+                  src={`https://raw.githubusercontent.com/wilantr0/tienda/a2dd269e948762c0e9d029c63052ebe6a034ceb0/public/${item.imgSrc}`}
                   alt={`Banner${item.id}`}
                 />
               </li>
