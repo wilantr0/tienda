@@ -1,19 +1,19 @@
 export const data = [
   {
     id: 1,
-    imgSrc: 'banner1.jpg'
+    imgSrc: 'Banner1.jpg'
   },
   {
     id: 2,
-    imgSrc: 'banner2.jpg'
+    imgSrc: 'Banner2.jpg'
   },
   {
     id: 3,
-    imgSrc: 'banner3.jpg'
+    imgSrc: 'Banner3.jpg'
   },
   {
     id: 4,
-    imgSrc: 'banner4.jpg'
+    imgSrc: 'Banner4.jpg'
   }
 ]
 
