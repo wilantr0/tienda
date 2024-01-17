@@ -36,7 +36,7 @@ export default function Carrousel () {
   }
 
   return (
-    <div className=' select-none relative w-full flex flex-col justify-center items-center mt-5'>
+    <div className=' select-none relative w-full hidden sm:flex flex-col justify-center items-center mt-5'>
       <div className=' relative flex flex-row items-center overflow-hidden justify-center w-full gap-2'>
         <a
           onClick={() => scrollToImage('prev')}
