@@ -11,7 +11,7 @@ export default function Layout () {
   const [show, setShow] = useState(false)
   return (
     <>
-      <header>
+      <header className='w-screen'>
         <nav className=' flex flex-row justify-between items-center bg-cyan-600'>
           <section>
             <a href='/'>
@@ -24,7 +24,7 @@ export default function Layout () {
               />
             </a>
           </section>
-          <section className=' flex flex-row justify-center items-center gap-x-4 mx-4'>
+          <section className=' hidden flex-row justify-center items-center gap-x-4 mx-4 sm:flex'>
             <a
               className=' h-[100px] flex justify-center items-center px-5 hover:bg-white hover:text-blue-500'
               href='/'

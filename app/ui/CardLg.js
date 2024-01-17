@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { products } from '../assets/data'
 
-export default function Card () {
+export default function CardLg () {
   return (
     <div className='flex flex-row flex-wrap text-white justify-center sm:justify-start '>
       {products.map(e => {

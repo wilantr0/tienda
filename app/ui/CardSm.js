@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { products } from '../assets/data'
 
-export default function Card () {
+export default function CardSm () {
   return (
     <div className='flex flex-row flex-wrap text-white justify-center sm:justify-start '>
       {products.map(e => {
@@ -10,12 +10,15 @@ export default function Card () {
           <Link
             href={`/pages/${e.id.toString}`}
             key={e.id}
-            className=' w-full rounded-lg bg-slate-700 m-4 p-4 shadow-2xl hover:shadow-slate-500 flex flex-row gap-2'
+            className=' w-full rounded-lg bg-slate-700 m-4 justify-center items-center p-4 shadow-2xl hover:shadow-slate-500 flex flex-row gap-4'
           >
-            <img src='/powerRanger.jpg' alt='' className='h-12 w-12' />
-            <section>
+            <img src='/powerRanger.jpg' alt='' className='h-24 w-24' />
+            <section className='flex flex-col relative w-full h-full gap-4'>
               <h3>{e.productName}</h3>
-              <span className='text-xs'>{e.price} €</span>
+              <span className='text-3xl'>{e.price} €</span>
+              <button className='relative bottom-0 bg-yellow-500 px-6 p-2 rounded-full'>
+                Añadir a la cesta
+              </button>
             </section>
           </Link>
         )
