@@ -40,7 +40,7 @@ export default function Carrousel () {
       <div className=' relative flex flex-row items-center overflow-hidden justify-center w-full gap-2'>
         <a
           onClick={() => scrollToImage('prev')}
-          className='absolute w-12 h-12 rounded-full bg-white flex items-center justify-center left-8 z-10'
+          className='absolute w-12 h-12 rounded-full bg-white sm:flex hidden items-center justify-center left-8 z-10'
         >
           <LiaArrowLeftSolid />
         </a>
@@ -65,7 +65,7 @@ export default function Carrousel () {
         </ul>
         <a
           onClick={() => scrollToImage('next')}
-          className='absolute w-12 h-12 rounded-full bg-white flex items-center justify-center right-2'
+          className='absolute w-12 h-12 rounded-full bg-white sm:flex hidden items-center justify-center right-2'
         >
           <LiaArrowRightSolid />
         </a>
