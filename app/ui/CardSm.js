@@ -16,6 +16,9 @@ export default function CardSm () {
             <section className='flex flex-col relative w-full h-full gap-4'>
               <h3>{e.productName}</h3>
               <span className='text-3xl'>{e.price} €</span>
+              <h4 className='m-0 p-0'>
+                {e.tallas[0]}-{e.tallas[e.tallas.length - 1]}
+              </h4>
               <button className='relative bottom-0 bg-yellow-500 px-6 p-2 rounded-full'>
                 Añadir a la cesta
               </button>
