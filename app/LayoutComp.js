@@ -11,7 +11,7 @@ export default function Layout () {
   const [show, setShow] = useState(false)
   return (
     <>
-      <header className='w-screen'>
+      <header className=' w-full'>
         <nav className=' flex flex-row justify-between items-center bg-cyan-600'>
           <section>
             <a href='/'>
